@@ -9,19 +9,19 @@ const JollofImage = () => {
         <div className="flex flex-wrap">
           <div className="flex flex-nowrap outline rounded box-border h-42 w-1/3 p-4 .px-1 border-4">
           <img
-          src="./src/assets/Jollof-Rice-1.webp"
+          src="../assets/Jollof-Rice-1.webp"
           className="h-auto max-w-full rounded-lg"
           alt="" />
           </div>
           <div className="flex flex-nowrap outline rounded box-border h-42 w-1/3 p-4 .px-1 border-4">
           <img
-          src="./src/assets/Jollof-Rice-2.webp"
+          src="../assets/Jollof-Rice-2.webp"
           className="h-auto max-w-full rounded-lg"
           alt="" />
           </div>
           <div className="flex flex-nowrap outline rounded box-border h-42 w-1/3 p-4 .px-1 border-4">
           <img
-          src="./src/assets/Jollof-Rice-3.jpg"
+          src="../assets/Jollof-Rice-3.jpg"
           className="h-auto max-w-full rounded-lg"
           alt="" />
           </div>

@@ -252,7 +252,7 @@ const StepsCard = () => {
                 />
               </svg>
               <span>
-                NOTE: If you don't want your jollof rice to start burning before
+                NOTE: If you do not want your jollof rice to start burning before
                 it is well cooked, you need to remove some of the fried tomatoes
                 before adding the rice. Then add it later.
               </span>
