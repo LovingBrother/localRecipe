@@ -1,39 +1,270 @@
 const Ingredients = () => {
-    return (
-        <div className="text-black font-mono justify-center mx-auto w-[700px] bg-white py-2 m-3 rounded-xl">
-            <h3 className="text-3xl text-center font-extrabold py-5">Ingredients
-            </h3>
-            <div className="w-full">
-                <ol>
-                <ListItem count={1} text="2 cups of rice" />
-                <ListItem count={2} text="1 onion"/>
-                <ListItem count={3} text="1 red bell pepper / tatashe"/>
-                <ListItem count={4} text="500ml chopped tomatoes"/>
-                <ListItem count={5} text="100g tomato purée"/>
-                <ListItem count={6} text="2 scotch bonnet"/>
-                <ListItem count={7} text="100ml vegetable oil"/>
-                <ListItem count={8} text="Maggi"/>
-                <ListItem count={9} text="Salt to taste"/>
-                <ListItem count={10} text="1 teaspoon curry"/>
-                <ListItem count={11} text="1 teaspoon thyme"/>
-                <ListItem count={12} text="1/2 teaspoon garlic"/>
-                <ListItem count={13} text="1/4 teaspoon ginger"/>
-                <ListItem count={14} text="2 cups water or stock"/>
-                </ol>
-            </div>
-        </div>
-    );
+  return (
+    <div className="font-mono justify-center mx-auto w-[700px] bg-white py-2 m-3 rounded-xl">
+      <h3 className="text-orange-800 text-3xl text-center font-extrabold py-5">
+        Ingredients
+      </h3>
+      <div className="w-full">
+        <ul>
+          <li className="flex items-center space-x-3">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <span>4 cups of rice</span>
+          </li>
+          <li className="flex items-center space-x-3">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <span>1 Kg of meat</span>
+          </li>
+          <li className="flex items-center space-x-3">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <span>1 onion</span>
+          </li>
+          <li className="flex items-center space-x-3">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <span>1 red bell pepper / tatashe</span>
+          </li>
+          <li className="flex items-center space-x-3">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <span>500ml chopped tomatoes</span>
+          </li>
+          <li className="flex items-center space-x-3">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <span>100g tomato purée</span>
+          </li>
+          <li className="flex items-center space-x-3">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <span>2 scotch bonnet</span>
+          </li>
+          <li className="flex items-center space-x-3">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <span>100ml vegetable oil</span>
+          </li>
+          <li className="flex items-center space-x-3">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <span>Maggi to taste</span>
+          </li>
+          <li className="flex items-center space-x-3">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <span>Salt to taste</span>
+          </li>
+          <li className="flex items-center space-x-3">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <span>1 teaspoon curry</span>
+          </li>
+          <li className="flex items-center space-x-3">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <span>1 teaspoon thyme</span>
+          </li>
+          <li className="flex items-center space-x-3">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <span>1/2 teaspoon garlic</span>
+          </li>
+          <li className="flex items-center space-x-3">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <span>1/4 teaspoon ginger</span>
+          </li>
+          <li className="flex items-center space-x-3">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <span>2 cups water or stock</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
 };
 
 export default Ingredients;
-
-const ListItem = ({ count, text }) => {
-    return (
-      <li className="text-body-color mb-4 flex text-base">
-        <span className="bg-primary mr-2 flex h-6 w-full max-w-[24px] items-center justify-center rounded text-base text-white">
-          {count}
-        </span>
-        {text}
-      </li>
-    );
-  };

@@ -1,4 +1,4 @@
-import StepsCard from "../components/StepsCard";
+import StepsCard from "/src/components/StepsCard";
 
 const Steps = () => {
     return (

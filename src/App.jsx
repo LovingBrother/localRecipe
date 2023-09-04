@@ -1,5 +1,6 @@
 import './App.css'
 import Header from "./components/Header"
+import JollofImage from './components/JollofImage'
 import {Ingredients, Steps, RecipeName} from "./sections"
 
 function App() {
@@ -8,6 +9,9 @@ function App() {
     <main>
      <section>
       <Header/>
+     </section>
+     <section>
+      <JollofImage/>
      </section>
      <section>
       <RecipeName/>
