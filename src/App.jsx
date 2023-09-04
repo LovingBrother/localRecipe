@@ -6,7 +6,7 @@ import {Ingredients, Steps, RecipeName} from "./sections"
 function App() {
 
   return (
-    <main>
+    <main className="w-full m-auto flex flex-col gap-5">
      <section>
       <Header/>
      </section>

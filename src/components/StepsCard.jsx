@@ -6,7 +6,7 @@ const StepsCard = () => {
           Cooking <span className="text-orange-400">Guide</span>
         </h3>
       </div>
-      <div className="w-[700px] m-auto flex flex-col gap-5">
+      <div className="w-full m-auto flex flex-col gap-5">
         <div className="flex items-center ">
           <ul>
             <li className="flex items-center gap-5 border-black border-[2px] p-[4px] rounded-x1 space-x-3">
