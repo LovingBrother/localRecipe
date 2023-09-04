@@ -1,3 +1,7 @@
+import Jollof1 from "/src/assets/index.js"
+import Jollof2 from "/src/assets/index.js"
+import Jollof3 from "/src/assets/index.js"
+
 const JollofImage = () => {
     return (
       <div className="py-10 space-x-4 space-y-4">
@@ -9,19 +13,19 @@ const JollofImage = () => {
         <div className="flex flex-wrap">
           <div className="flex flex-nowrap outline rounded box-border h-42 w-1/3 p-4 .px-1 border-4">
           <img
-          src="./src/assets/Jollof-Rice-1.webp"
+          src={Jollof1}
           className="h-auto max-w-full rounded-lg"
           alt="" />
           </div>
           <div className="flex flex-nowrap outline rounded box-border h-42 w-1/3 p-4 .px-1 border-4">
           <img
-          src="../assets/Jollof-Rice-2.webp"
+          src={Jollof2}
           className="h-auto max-w-full rounded-lg"
           alt="" />
           </div>
           <div className="flex flex-nowrap outline rounded box-border h-42 w-1/3 p-4 .px-1 border-4">
           <img
-          src="../assets/Jollof-Rice-3.jpg"
+          src={Jollof3}
           className="h-auto max-w-full rounded-lg"
           alt="" />
           </div>
