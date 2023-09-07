@@ -1,4 +1,4 @@
-import jollofLogo from "../assets/jollof-rice.svg";
+import jollofLogo from "/jollof-rice.svg";
 
 const Nav = () => {
   return (
