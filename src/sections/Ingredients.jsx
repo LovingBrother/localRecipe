@@ -1,6 +1,6 @@
 const Ingredients = () => {
   return (
-    <div className="font-mono justify-center mx-auto w-[700px] bg-white py-2 m-3 rounded-xl">
+    <div className="font-mono justify-center mx-auto w-auto bg-white py-2 m-3 rounded-xl">
       <h3 className="text-orange-800 text-3xl text-center font-extrabold py-5">
         Ingredients
       </h3>
