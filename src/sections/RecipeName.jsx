@@ -7,7 +7,7 @@ const RecipeName = () => {
         </h3>
       </div>
       <div className="flex flex-wrap items-center">
-        <div className="flex flex-nowrap items-center outline rounded box-border h-auto lg:w-1/3 w-2/3 p-4 px-1 border-4">
+        <div className="flex flex-nowrap items-center outline rounded box-border h-auto lg:w-1/3 w-auto p-4 px-1 border-4">
           <p>
             Jollof, or jollof rice, is a rice dish from West Africa. The dish is
             typically made with long-grain rice, tomatoes, onions, spices,
@@ -15,7 +15,7 @@ const RecipeName = () => {
             preparation methods vary across different regions.
           </p>
         </div>
-        <div className="flex flex-nowrap items-center outline rounded box-border h-auto lg:w-1/3 w-2/3 p-4 px-1 border-4">
+        <div className="flex flex-nowrap items-center outline rounded box-border h-auto lg:w-1/3 w-auto p-4 px-1 border-4">
           <p>
             Jollof rice unites nearly all of West Africa, with perhaps Nigeria
             and Ghana being the two countries best known for it. It is to West
@@ -23,7 +23,7 @@ const RecipeName = () => {
             but a cultural emblem. — Kwame Onwuachi
           </p>
         </div>
-        <div className="flex flex-nowrap items-center outline rounded box-border h-auto lg:w-1/3 w-2/3 p-4 px-1 border-4">
+        <div className="flex flex-nowrap items-center outline rounded box-border h-auto lg:w-1/3 w-auto p-4 px-1 border-4">
           <p>
             For my spouse, jollof symbolizes the courage his parents had to
             leave the only home they ever knew in search of better opportunities
